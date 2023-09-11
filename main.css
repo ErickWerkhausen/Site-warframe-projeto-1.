@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+*/
+
+a {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+font-size: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    color: #004F71;
+
+}
+
+header .container,
+.warframes,
+.Atualizações {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    font-weight: normal;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+header ul li a {
+    color: #004F71;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-background img {
+    max-width: 1300px;
+    width: 1300px;
+    height: 540px;
+}
+
+.img-warframes img {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.container .articles article img {
+    width: 50%;
+    margin: 10px;
+}
+
+.container .articles h2 {
+    text-align: center;
+    margin: 20px;
+    color: #B30000;
+}
+
+.container .articles p {
+    margin: 0 50px;
+}
+
+.baixar {
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 1;
+    margin: 30px 300px;
+    border-radius: 30px;
+}
+
+.container .articles .baixar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Baixar_botão {
+    width: 350px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #B30000;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.container .articles .baixar p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.plataformas-compativeis li {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container .articles .baixar .plataformas-compativeis img {
+    width: 50px;
+    margin: 30px;
+}
+
+.social-link img {
+    height: 24px;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contact-methods h3,
+.contact-methods form {
+    margin-left: 40px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    color: #B30000;
+}
+
+form button {
+    background-color: #B30000;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 16px 0;
+    text-align: center;
+}
